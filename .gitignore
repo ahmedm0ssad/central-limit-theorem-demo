@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# IDE
+.vscode/
+.idea/
+
+# Generated outputs (optional - remove # to track outputs)
+# outputs/
+*.png
+*.npz
+*.RData
+
+# OS
+.DS_Store
+Thumbs.db
