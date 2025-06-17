@@ -23,11 +23,13 @@ venv/
 .vscode/
 .idea/
 
-# Generated outputs (optional - remove # to track outputs)
+# Generated outputs - allowing outputs folder to be tracked
 # outputs/
-*.png
-*.npz
-*.RData
+!outputs/
+outputs/*
+!outputs/*.png
+!outputs/*.npz
+!outputs/*.RData
 
 # OS
 .DS_Store
